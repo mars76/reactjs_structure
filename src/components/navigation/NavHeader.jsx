@@ -13,8 +13,9 @@ export default class NavHeader extends React.Component {
                     <span className="icon-bar"></span>
                 </button>
                 <a className="navbar-brand" href="#">
-                    {this.props.headerData.brandName}
+                    {this.props.headerData.brandName} &nbsp;<i className="fa fa-chevron-circle-right"></i>
                 </a>
+
             </div>
         );
     }

@@ -1,9 +1,7 @@
 import React 		from 'react';
 
-import NavHeader 	from './NavHeader.jsx';
-import NavActions 	from './NavActions.jsx';
-import Login 		from './Login.jsx';
-
+import NavHeader 	from './NavHeader';
+import NavActions 	from './NavActions';
 
 export default class NavBar extends React.Component {
 	constructor(){
